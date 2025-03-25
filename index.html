@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pig Game</title>
+    <link rel="icon" type="image/svg+xml" href="img/favicon.ico" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main>
+        <!-- PLAYER 01 BOARD -->
+        <section class="player player_0 player_active">
+            <h2 class="name" id="name_0">Player 1</h2>
+            <p class="score" id="score_0">43</p>
+
+            <div class="current">
+                <p class="current_label">Current</p>
+                <p class="current_score" id="current_0">0</p>
+            </div>
+        </section>
+
+        <!-- PLAYER 02 BOARD -->
+        <section class="player player_1">
+            <h2 class="name" id="name_1">Player 2</h2>
+            <p class="score" id="score_1">24</p>
+
+            <div class="current">
+                <p class="current_label">Current</p>
+                <p class="current_score" id="current_1">0</p>
+            </div>
+        </section>
+
+        <!-- BOARD -->
+        <img src="img/dice-2.png" alt="Playing Dice" class="dice">
+        <button class="btn btn_new">New Game</button>
+        <button class="btn btn_roll">Roll Dice</button>
+        <button class="btn btn_hold">Hold</button>
+    </main>
+</body>
+</html>
