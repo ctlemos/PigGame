@@ -173,3 +173,62 @@ main {
 .hidden {
     display: none;
 }
+
+@media screen and (max-width: 768px){
+    html {
+        font-size: 31.5%;
+    }
+    main {
+        width: 90rem;
+        height: 100rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .player {
+        padding: 5rem 34.9rem 5rem 34.9rem;
+    }
+
+    /* SCORE */
+    .current {
+        width: 100%;
+    }
+
+    .current-label {
+        margin-bottom: 3rem;
+        font-size: 2rem;
+    }
+
+    .current-score {
+        font-size: 5rem;
+    }
+
+    /* BUTTONS */
+    .btn {
+        position: absolute;
+        padding: 1rem 2.5rem;
+    }
+
+    .btn--new {
+        left: 11rem;
+        top: 35rem;
+    }
+    .btn--roll {
+        left: 10.5rem;
+        top: 47.5rem;
+    }
+    .btn--hold {
+        left: 8.5rem;
+        top: 60rem;
+    }
+
+    /* DICE */
+    .dice {
+        position: absolute;
+        left: 85%;
+        top: 41rem;
+        height: 18rem;
+    }
+}
